@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.login{
+    border: 0.5px solid #000;
+    padding: 10px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    height: 500px;
+    width: 350px;
+    margin: 200px auto;
+    box-sizing: border-box;
+}
+
+.login h1{
+    text-align: center;
+    margin: 45px auto;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: calc(50% - 50px);
+    top: 145px;
+    position: absolute;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password]{
+    border: none;
+    border-bottom: 1px solid rgba(4,83,125,1);;
+    height: 40px;
+    width: 200px;
+    margin: 10px auto;
+    background: transparent;
+    display: block;
+    text-align: center;
+}
+
+input[type="submit"]{
+    border:none;
+    display: block;
+    height: 40px;
+    width: 200px;   
+    width: 50%;
+    background: rgba(4,83,125,1);
+    color:rgba(255,255,255,1);
+    border-radius: 10px;
+    margin:30px auto;
+    font-weight: bold;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+input[type="submit"]:hover{
+    background: rgba(4,83,125,0.8); 
+}
+
+input[type=text]:hover,
+input[type=password]:hover{
+    border-bottom: 2px solid rgba(4,83,125,1);
+}
+
